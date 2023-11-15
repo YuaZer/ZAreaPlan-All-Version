@@ -1,0 +1,9 @@
+Message:
+  reload: "&a重载成功"
+  errorWorld: "&c%world%世界并不存在，请检查%file%配置文件"
+  fileNull: "&aplans文件夹内的内容为空"
+  noPlan: "&c并不存在该区域方案名"
+  alreadyRunning: "&c该区域方案已经在运行了哦!"
+  noRunning: "&c该区域方案并不在运行哦!"
+  successStop: "&a成功停止该区域方案"
+  successStart: "&a成功启动该区域方案"

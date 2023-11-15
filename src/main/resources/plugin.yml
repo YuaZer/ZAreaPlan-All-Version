@@ -1,0 +1,9 @@
+name: ZAreaPlan
+version: '${version}'
+main: io.github.yuazer.zareaplan.Main
+authors:
+  - YuaZer
+commands:
+  zareaplan:
+    aliases:
+      - zap

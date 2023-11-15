@@ -1,0 +1,18 @@
+Location:
+  world: "world"
+  x1y1z1: "-34//71//222"
+  x2y2z2: "-43//63//234"
+#是否异步执行区域方案
+async: true
+#是否在开服时或者重载该方案后自动启动该区域方案
+isAutoRun: true
+#延时多长时间执行(单位:tick)
+delay: "0"
+#循环间隔(单位:tick 20ticks=1秒)
+period: "20"
+#黑名单玩家(执行指令会跳过该玩家)
+blackListPlayer:
+  - "Z_JUN_dada"
+#对区域内的非黑名单玩家执行的指令
+commands:
+  - "say %player%在该区域内哦"
