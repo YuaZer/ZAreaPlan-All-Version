@@ -47,9 +47,11 @@ public class PlanRunnable extends BukkitRunnable {
             if (player1==null){
                 continue;
             }
-            for (String cmd:conf.getStringList("commands")){
-                Bukkit.dispatchCommand(Bukkit.getConsoleSender(),cmd.replace("%player%",player));
-            }
+            Bukkit.getScheduler().runTask(Main.getInstance(),()->{
+                for (String cmd:conf.getStringList("commands")){
+                    Bukkit.dispatchCommand(Bukkit.getConsoleSender(),cmd.replace("%player%",player));
+                }
+            });
         }
     }
 
